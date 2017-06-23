@@ -1,0 +1,22 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+  <title>Hello Solar System</title>
+  <link rel="stylesheet" type="text/css" href="css/style.css">
+</head>
+
+<body ng-app="helloSolarSystem">
+  <a ui-sref="hello" ui-sref-active="active">Hello</a>
+  <a ui-sref="about" ui-sref-active="active">About</a>
+  <a ui-sref="people" ui-sref-active="active">People</a>
+  <ui-view></ui-view>
+
+  <script src="//npmcdn.com/angular@latest/angular.js"></script>
+  <script src="//npmcdn.com/angular-ui-router@1.0.0-alpha.4/release/angular-ui-router.js"></script>
+  <script src="js/helloSolarSystem.js"></script>
+  <script src="js/components.js"></script>
+  <script src="js/services.js"></script>
+</body>
+
+</html>
